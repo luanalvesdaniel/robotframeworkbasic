@@ -60,3 +60,27 @@ Output:  C:\Users\luan\qa\robot\output.xml
 Log:     C:\Users\luan\qa\robot\log.html
 Report:  C:\Users\luan\qa\robot\report.html
 ```
+
+## instalando e importanto a biblioteca selenium para python no robot
+
+* executar no terminal para instalar o selenium
+~~~
+pip install robotframework-seleniumlibrary
+~~~
+
+* criar um arquivo.robot e inserir os comandos
+
+* importar a biblioteca selenium
+~~~
+*** Settings ***
+Library         SeleniumLibrary
+~~~
+
+* inserindo Caso de Teste e iniciando o driver pelo chrome
+~~~
+*** Test Cases ***
+Should see page title
+    Open Browser        https://training-wheels-protocol.herokuapp.com/     chrome
+    Title Should Be     Training Wheels Protocol
+    Close Browser
+~~~
