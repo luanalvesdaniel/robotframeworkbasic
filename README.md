@@ -84,3 +84,8 @@ Should see page title
     Title Should Be     Training Wheels Protocol
     Close Browser
 ~~~
+
+* executar o teste
+~~~
+robot web/title.robot
+~~~
