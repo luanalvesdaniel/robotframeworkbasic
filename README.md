@@ -85,7 +85,7 @@ Should see page title
     Close Browser
 ~~~
 
-* executar o teste
+* executar o teste gravando o log em uma pasta separada
 ~~~
-robot web/title.robot
+robot -d ./web/log web/checkbox.robot
 ~~~
