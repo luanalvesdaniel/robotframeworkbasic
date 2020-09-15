@@ -37,4 +37,4 @@ Should Contain Login Alert
 
 Should See Logged User
     [Arguments]             ${full_name}
-    Page Should Contain     'Olá, ${full_name}. Você acessou a área logada!
+    Page Should Contain     Olá, ${full_name} Você acessou a área logada!

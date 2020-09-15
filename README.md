@@ -9,6 +9,13 @@ Python + Robot Framework + Selenium
 ## baixar python
 	conferir versão python e pip
 
+## baixar driver do navegador para executarmos o selenium
+
+* confira a versão do driver conforme seu navegador
+** Google Chrome: https://chromedriver.chromium.org/downloads
+** Mozilla Firefox: https://github.com/mozilla/geckodriver/releases
+** Opera: https://github.com/operasoftware/operachromiumdriver/releases
+
 ## baixar cmder ou usar gitbash
 
 ## instalar robotframework pelo gerenciar de pacotes do python (pip)
@@ -30,7 +37,7 @@ print(result)
 	
 * Ola Fulano, bem vindo ao curso basico de Robot Framework!
 
-## usar o robot para execucar a aplicação
+## usar o robot para executar a aplicação
 	
 * criar arquivo "test.robot"
 
