@@ -9,16 +9,16 @@ Python + Robot Framework + Selenium
 ## baixar python
 	conferir versão python e pip
 
-## baixar driver do navegador para executarmos o selenium
+## baixar driver do navegador para executar o selenium
 
-* confira a versão do driver conforme seu navegador
-** Google Chrome: https://chromedriver.chromium.org/downloads
-** Mozilla Firefox: https://github.com/mozilla/geckodriver/releases
-** Opera: https://github.com/operasoftware/operachromiumdriver/releases
+Confira a versão do driver conforme seu navegador
+* Google Chrome: https://chromedriver.chromium.org/downloads
+* Mozilla Firefox: https://github.com/mozilla/geckodriver/releases
+* Opera: https://github.com/operasoftware/operachromiumdriver/releases
 
 ## baixar cmder ou usar gitbash
 
-## instalar robotframework pelo gerenciar de pacotes do python (pip)
+## instalar robotframework pelo gerenciador de pacotes do python (pip)
 	
 * pip install robotframework
 * confirmar robot --version
@@ -94,5 +94,5 @@ Should see page title
 
 * executar o teste gravando o log em uma pasta separada
 ~~~
-robot -d ./web/log web/checkbox.robot
+robot -d ./logs arquivo.robot
 ~~~
